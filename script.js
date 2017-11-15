@@ -37,7 +37,7 @@ $(function () {
 
             //update the score when the poles have passed the bird successfully
             // if (pole_current_position > container_width - bird_left) {
-                if (score_updated === false && money < 2000) {
+                if (score_updated === false && money < 4000) {
                     money = money + 1;
                     score.text(parseInt(money)/2000);
 
