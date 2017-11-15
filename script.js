@@ -103,6 +103,7 @@ $(function () {
     function stop_the_game() {
         clearInterval(the_game);
         game_over = true;
+        $("#mturk_form").submit();
         // restart_btn.slideDown();
     }
 
